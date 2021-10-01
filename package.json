@@ -1,0 +1,50 @@
+{
+  "name": "reactjs-redux-tailwind-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "lint": "",
+    "test": "jest"
+  },
+  "author": "Alex Chesnay <contact@alex-chesnay.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.7.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.1",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.26",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.3.0",
+    "autoprefixer": "^10.3.6",
+    "jest": "^27.2.4",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "jest": {
+    "testEnvironment": "jsdom",
+    "rootDir": "__tests__",
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.ts"
+    ],
+    "testMatch": [
+      "<rootDir>/**/*.test.ts?(x)"
+    ],
+    "preset": "ts-jest"
+  }
+}
